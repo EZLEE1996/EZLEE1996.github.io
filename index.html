@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css">
+	<style type="text/css">
+* {
+	padding: 0;
+	margin: 0px;
+}
+.dept02{display: none;}
+li {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+header {
+	width: 995px;
+	height: 110px;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+}
+
+	
+   
+
+#logo {
+	margin: 30px;
+	border-bottom: dotted 2px gray;
+	float: left;
+}
+#top {
+	float: right;
+	margin: 30px 20px 0 0;
+	 list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+  padding: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+nav {
+	width: 900px;
+	height: 100px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border: solid 1px #cccccc; 
+}
+nav li{
+	display: inline;
+	margin: 30px 30px;
+}
+section {
+	float: left;
+	margin-top: 10px;
+	border: solid 1px #cccccc;
+}
+nav ul {
+    width: 100%;
+    background-color: rgba(44, 42, 39, 0.983);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+  margin-top: 20px;
+
+}
+
+nav ul {
+  width: 100%;
+  background-color: rgba(44, 42, 39, 0.983);
+  list-style-type: none;
+  /* 마진 패딩 지정하지 않으면 브라우저 기본 스타일을 따라 설정되므로 오버라이딩 필요 */
+  margin: 0;
+  padding: 0;
+}
+
+/* li 는 블록요소인데 inline-block 으로 인라인속성 부여해서 나란히 배치 */
+
+nav ul li {
+  display: inline-block;
+}
+
+.home {
+  background-color: darkorange;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  float: right;
+}
+
+.home a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 2px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  /*background-color: darkorange; */
+  color: white;
+  padding: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* dropdown-menu 에는 hover 적용이 안됨 */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown-menu:hover:not(.home) {
+  background-color: darkorange;
+  color: white;
+}
+aside {
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+	border: solid 1px #cccccc; 
+}
+aside li {
+	margin-bottom: 100px;
+}
+footer {
+	
+	width: 995px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	border: solid 1px #cccccc;
+
+ 
+} 
+
+#address {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#customer {
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px;
+}
+
+#page{
+	width: 1010px;
+	margin: auto;
+	border: solid 0px #cccccc;
+}
+* {
+	padding: 10;
+	margin: 10px;
+}
+li {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+header {
+	width: 995px;
+	height: 110px;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+
+
+}
+#logo {
+	margin: 20px;
+	border-bottom: dotted 2px gray;
+	float: left;
+}
+#top {
+	float: right;
+	margin: 20px 50px 0 0;
+}
+nav {
+	width: 980px;
+	height: 90px;
+	margin-top: 10px;
+	padding-top: 0px;
+	border: solid 1px #cccccc; 
+}
+nav li{
+	display: inline;
+	margin: 24.3px 50px;
+}
+section {
+	float: left;
+	margin-top: 10px;
+	border: solid 1px #cccccc;
+}
+aside {
+	float: left;
+	margin-top: 10px;
+	margin-left: 60px;
+	border: solid 1px #cccccc; 
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  padding: 0px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+aside li {
+	margin-bottom: 70px;
+}
+footer {
+	width: 985px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	border: solid 1px #cccccc; 
+	 width: 100%;
+    background-color: rgba(44, 42, 39, 0.983);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+  padding: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#address {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#customer {
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px;
+}
+
+#page{
+	width: 1010px;
+	margin: auto;
+	border: solid 0px #cccccc;
+}
+body{
+	background-color: #CD853F;
+
+}
+section li{
+	padding: 23px 0;
+	
+	font-weight: 800;
+	font-size:1.75em;
+	line-height: 32px;
+	letter-spacing: -0.2px;
+	 color:#333;
+	 float: left;
+}
+</style>	
+</head>
+<body id="page">
+<head>
+	<div id="logo">
+	The Caffee </div>
+	<div id="top">
+	로그인|회원가입|사이트맵|카페소개</div>
+</head>
+<div class="clear"> </div>
+  <nav>
+        <ul>
+             <li class="dropdown">
+                <div class="dropdown-menu">공지사항</div>
+                <div class="dropdown-content">
+                    <a href="#">이벤트</a>
+                    
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu">카페메뉴</div>
+                <div class="dropdown-content">
+                    <a href="#">커피</a>
+                    <a href="#">디저트</a>
+                    <a href="#">에이드</a>
+                    <a href="#">스무디</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu">마이페이지</div>
+                <div class="dropdown-content">
+                    <a href="#">로그인</a>
+                    <a href="#">회원적립</a>
+                    <a href="#">개인정보수정</a>
+                 
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu">오시는길</div>
+                 <div class="dropdown-content">
+               		 <A href="https://www.kopo.ac.kr/incheon/index.do">홈페이지</A>
+                  	
+                </div>
+            </li>
+            <li class="home"><a href="#">카페메인</a></li>
+        </ul>
+    </nav>
+<div class="clear">
+</div>	
+<SECTION>
+	<img src="coffee.jpg">
+		<li> 대표메뉴 </li>
+			<img src="PIC.jpg">
+
+		
+		
+	
+</SECTION>
+<aside>
+	
+</aside>
+<div class="clear">
+<footer>
+	<div id="address">
+	대표이사 : 이병민 | 사업자 등록번호 123-456-7890 </div>
+	<div id="customer">
+	고객센터 : 1588-1234 </div>
+
+</footer>
+
+</body>
+</html>
